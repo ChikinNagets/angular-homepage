@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SideNavComponent } from '../side-nav/side-nav.component'
+import { HomeComponent } from './home.component';
 
 
 
 @NgModule({
-  declarations: [
-    SideNavComponent
-  ],
+  declarations: [HomeComponent],
   imports: [
     CommonModule
   ]
 })
-export class HomePageModule { }
+export class HomeModule { }
